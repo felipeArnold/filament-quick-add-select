@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.1] - 2026-01-23
+
+### Fixed
+- Added Laravel 12 support to composer.json requirements
+- Updated `illuminate/contracts` constraint to support both Laravel 11 and 12 (`^11.0 || ^12.0`)
+- Updated `orchestra/testbench` to support Laravel 12 testing (`^9.0 || ^10.0`)
+
 ## [1.0.0] - 2026-01-23
 
 ### Added
@@ -26,5 +33,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Conditional enabling/disabling of quick add feature
 - Works seamlessly with Livewire's reactive updates
 
-[Unreleased]: https://github.com/cocosmos/filament-quick-add-select/compare/v1.0.0...HEAD
+[Unreleased]: https://github.com/cocosmos/filament-quick-add-select/compare/v1.0.1...HEAD
+[1.0.1]: https://github.com/cocosmos/filament-quick-add-select/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/cocosmos/filament-quick-add-select/releases/tag/v1.0.0
